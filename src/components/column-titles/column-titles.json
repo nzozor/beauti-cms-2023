@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_column_titles_column_titles",
+  "info": {
+    "displayName": "ColumnTitles",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "row": {
+      "displayName": "row",
+      "type": "component",
+      "repeatable": true,
+      "component": "row.row"
+    },
+    "title": {
+      "type": "string"
+    },
+    "hideColumnTitle": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_row_rows",
+  "info": {
+    "displayName": "row"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "hide": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

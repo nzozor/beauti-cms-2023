@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prices",
+  "info": {
+    "singularName": "price",
+    "pluralName": "prices",
+    "displayName": "Price",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "priceTitle": {
+      "type": "string"
+    },
+    "hideColumnTitles": {
+      "type": "boolean",
+      "default": false
+    },
+    "Column": {
+      "displayName": "ColumnTitles",
+      "type": "component",
+      "repeatable": true,
+      "component": "column-titles.column-titles"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section.section"
+    },
+    "treament": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::treament.treament"
+    }
+  }
+}

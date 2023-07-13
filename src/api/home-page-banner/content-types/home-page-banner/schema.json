@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_banners",
+  "info": {
+    "singularName": "home-page-banner",
+    "pluralName": "home-page-banners",
+    "displayName": "Home Page Banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "title4": {
+      "type": "string"
+    },
+    "asterisk": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "findOutMoreUrl": {
+      "type": "string"
+    },
+    "imgSmall": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "publication": {
+      "type": "datetime"
+    },
+    "hide": {
+      "type": "boolean"
+    },
+    "title2extra": {
+      "type": "string"
+    },
+    "expirationDate": {
+      "type": "datetime"
+    },
+    "isDefaultBanner": {
+      "type": "boolean"
+    },
+    "rank": {
+      "type": "integer"
+    }
+  }
+}
