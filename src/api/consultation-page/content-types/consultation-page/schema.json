@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "about_us_pages",
+  "collectionName": "consultation_pages",
   "info": {
-    "singularName": "about-us-page",
-    "pluralName": "about-us-pages",
-    "displayName": "About Us Page",
-    "description": ""
+    "singularName": "consultation-page",
+    "pluralName": "consultation-pages",
+    "displayName": "Consultation Page"
   },
   "options": {
     "draftAndPublish": true

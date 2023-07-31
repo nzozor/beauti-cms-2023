@@ -29,6 +29,9 @@
     },
     "Url": {
       "type": "string"
+    },
+    "rank": {
+      "type": "integer"
     }
   }
 }
