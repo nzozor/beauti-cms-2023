@@ -1,5 +1,5 @@
 export default ({ env }) => ({
-  url: env("PUBLIC_URL", "http://192.168.1.114/:1666"),
+  url: env("PUBLIC_URL", "http://192.168.1.114/s1666"),
 
   host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 1666),
