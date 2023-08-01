@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "consultations",
+  "info": {
+    "singularName": "consultation",
+    "pluralName": "consultations",
+    "displayName": "consultation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
