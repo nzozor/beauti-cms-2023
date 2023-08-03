@@ -4,7 +4,8 @@
   "info": {
     "singularName": "consultation",
     "pluralName": "consultations",
-    "displayName": "consultation"
+    "displayName": "consultation",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,10 @@
     },
     "message": {
       "type": "text"
+    },
+    "firstTimeCustomer": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

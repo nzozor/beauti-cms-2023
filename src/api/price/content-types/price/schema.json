@@ -23,7 +23,7 @@
       "displayName": "ColumnTitles",
       "type": "component",
       "repeatable": true,
-      "component": "column-titles.column-titles"
+      "component": "row.column-titles"
     },
     "rank": {
       "type": "integer"
@@ -37,6 +37,16 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::treament.treament"
+    },
+    "tablePrice2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "row.column-titles"
+    },
+    "tablePrice3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "row.column-titles"
     }
   }
 }
