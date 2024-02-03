@@ -15,9 +15,6 @@
     "title": {
       "type": "string"
     },
-    "Content": {
-      "type": "richtext"
-    },
     "ShowcasePage": {
       "type": "boolean"
     },
@@ -46,6 +43,14 @@
     },
     "promotionHeadings": {
       "type": "richtext"
+    },
+    "Content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
