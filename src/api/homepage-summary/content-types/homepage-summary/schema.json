@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_summaries",
+  "info": {
+    "singularName": "homepage-summary",
+    "pluralName": "homepage-summaries",
+    "displayName": "Homepage Summary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
