@@ -41,9 +41,6 @@
     "secondaryTitle": {
       "type": "string"
     },
-    "promotionHeadings": {
-      "type": "richtext"
-    },
     "Content": {
       "type": "customField",
       "options": {
@@ -51,6 +48,12 @@
         "preset": "rich"
       },
       "customField": "plugin::ckeditor.CKEditor"
+    },
+    "metaTitle": {
+      "type": "text"
+    },
+    "metaDescription": {
+      "type": "text"
     }
   }
 }
