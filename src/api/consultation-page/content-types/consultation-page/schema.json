@@ -4,7 +4,8 @@
   "info": {
     "singularName": "consultation-page",
     "pluralName": "consultation-pages",
-    "displayName": "Consultation Page"
+    "displayName": "Consultation Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,12 @@
         "preset": "rich"
       },
       "customField": "plugin::ckeditor.CKEditor"
+    },
+    "metaTitle": {
+      "type": "text"
+    },
+    "metaDescription": {
+      "type": "text"
     }
   }
 }
